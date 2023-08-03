@@ -1,0 +1,11 @@
+C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\testingForm\bin\Debug\testingForm.exe.config
+C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\testingForm\bin\Debug\testingForm.exe
+C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\testingForm\bin\Debug\testingForm.pdb
+C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\testingForm\obj\Debug\testingForm.csproj.AssemblyReference.cache
+C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\testingForm\obj\Debug\testingForm.csproj.SuggestedBindingRedirects.cache
+C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\testingForm\obj\Debug\testingForm.Form1.resources
+C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\testingForm\obj\Debug\testingForm.Properties.Resources.resources
+C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\testingForm\obj\Debug\testingForm.csproj.GenerateResource.cache
+C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\testingForm\obj\Debug\testingForm.csproj.CoreCompileInputs.cache
+C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\testingForm\obj\Debug\testingForm.exe
+C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\testingForm\obj\Debug\testingForm.pdb
