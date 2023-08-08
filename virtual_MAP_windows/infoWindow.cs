@@ -1,26 +1,29 @@
-using System.Reflection.PortableExecutable;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace virtual_MAP_windows
 {
-    public partial class main : Form
+    public partial class infoWindow : Form
     {
 
-        //variables
-
         private Point dragStartPoint;
-
-
-
-
-        public main()
+        List<infoWindow> openedWindows;
+        public infoWindow(string number, List<infoWindow> opendW)
         {
             InitializeComponent();
+            Location = Point.Add(Cursor.Position, new Size(18,10));
+            Text = number;
+            label1.Text = number;
+            openedWindows = opendW;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
 
 
 
@@ -31,13 +34,6 @@ namespace virtual_MAP_windows
 
 
 
-
-
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
-        }
 
         #region design
         private void DraggableWindow_MouseDown(object sender, MouseEventArgs e)
@@ -70,6 +66,7 @@ namespace virtual_MAP_windows
 
         private void closeWindow(object sender, EventArgs e)
         {
+            openedWindows.Remove(this);
             this.Close();
         }
 
@@ -80,7 +77,7 @@ namespace virtual_MAP_windows
 
         private void Icon_MouseLeave(object sender, EventArgs e)
         {
-            (sender as PictureBox).BackColor = Color.FromArgb(20, 74, 110);
+            (sender as PictureBox).BackColor = Color.FromArgb(25, 82, 121);
         }
 
         private void closeIcon_MouseEnter(object sender, EventArgs e)
@@ -95,15 +92,17 @@ namespace virtual_MAP_windows
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            (sender as Button).BackColor = Color.FromArgb(20, 74, 110);
+            (sender as Button).BackColor = Color.FromArgb(20, 76, 113);
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            (sender as Button).BackColor = Color.FromArgb(34, 97, 140);
+            (sender as Button).BackColor = Color.FromArgb(39, 103, 148);
         }
 
         #endregion
+
+
 
     }
 }
