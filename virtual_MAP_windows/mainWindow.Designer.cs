@@ -45,6 +45,7 @@
             closeIcon = new PictureBox();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
+            label2 = new Label();
             label1 = new Label();
             tabPage2 = new TabPage();
             tabPage3 = new TabPage();
@@ -52,6 +53,7 @@
             tabPage5 = new TabPage();
             tabPage6 = new TabPage();
             tabPage7 = new TabPage();
+            label3 = new Label();
             leftPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -61,6 +63,7 @@
             ((System.ComponentModel.ISupportInitialize)closeIcon).BeginInit();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
+            tabPage2.SuspendLayout();
             SuspendLayout();
             // 
             // leftPanel
@@ -303,6 +306,7 @@
             // tabPage1
             // 
             tabPage1.BackColor = Color.FromArgb(47, 118, 165);
+            tabPage1.Controls.Add(label2);
             tabPage1.Controls.Add(label1);
             tabPage1.Location = new Point(4, 5);
             tabPage1.Name = "tabPage1";
@@ -310,6 +314,17 @@
             tabPage1.Size = new Size(1223, 749);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "tabPage1";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Cursor = Cursors.Hand;
+            label2.Location = new Point(423, 317);
+            label2.Name = "label2";
+            label2.Size = new Size(25, 15);
+            label2.TabIndex = 1;
+            label2.Text = "202";
+            label2.Click += loadClassroom;
             // 
             // label1
             // 
@@ -325,6 +340,7 @@
             // tabPage2
             // 
             tabPage2.BackColor = Color.FromArgb(47, 118, 165);
+            tabPage2.Controls.Add(label3);
             tabPage2.Location = new Point(4, 5);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
@@ -382,6 +398,16 @@
             tabPage7.TabIndex = 6;
             tabPage7.Text = "tabPage7";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(113, 203);
+            label3.Name = "label3";
+            label3.Size = new Size(25, 15);
+            label3.TabIndex = 0;
+            label3.Text = "706";
+            label3.Click += loadClassroom;
+            // 
             // mainWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -408,6 +434,8 @@
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
+            tabPage2.ResumeLayout(false);
+            tabPage2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -435,5 +463,7 @@
         private TabPage tabPage5;
         private TabPage tabPage6;
         private TabPage tabPage7;
+        private Label label2;
+        private Label label3;
     }
 }

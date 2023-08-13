@@ -10,9 +10,7 @@ namespace virtual_MAP_windows
         //variables
 
         private Point dragStartPoint;
-        public List<infoWindow> openWindows = new List<infoWindow>(); 
-
-
+        public List<infoWindow> openWindows = new();
 
         public mainWindow()
         {
@@ -23,13 +21,6 @@ namespace virtual_MAP_windows
         {
 
         }
-
-
-
-
-
-
-
 
 
 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(infoWindow));
             panel2 = new Panel();
             label1 = new Label();
             pictureBox3 = new PictureBox();
@@ -35,8 +36,8 @@
             closeIcon = new PictureBox();
             pictureBox1 = new PictureBox();
             richTextBox1 = new RichTextBox();
-            table = new Button();
-            button1 = new Button();
+            editText = new Button();
+            changePicture = new Button();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)minimizeIcon).BeginInit();
@@ -67,6 +68,8 @@
             label1.Name = "label1";
             label1.Size = new Size(0, 33);
             label1.TabIndex = 12;
+            label1.MouseDown += DraggableWindow_MouseDown;
+            label1.MouseMove += DraggableWindow_MouseMove;
             // 
             // pictureBox3
             // 
@@ -116,6 +119,7 @@
             pictureBox1.Location = new Point(12, 42);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(544, 306);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
             // 
@@ -127,57 +131,62 @@
             richTextBox1.ForeColor = Color.White;
             richTextBox1.Location = new Point(12, 354);
             richTextBox1.Name = "richTextBox1";
+            richTextBox1.ReadOnly = true;
             richTextBox1.Size = new Size(544, 204);
             richTextBox1.TabIndex = 5;
-            richTextBox1.Text = "teasdshujasdbubdsauvbdsauydvbyuuyuyuyyuuyuyuyuyuyuyuyyuuyuyuyyuyuyuyuyuyuyuyuyuyuyuuyuyuyuyyuyuyuyuuyyuyuyuuyyuyuyuuyuyuyuyuyuyuyuyyuyuyuuyuyuyuyyuyuyuyuuyuyuyuyyuyuyuyuuyuyu";
+            richTextBox1.Text = "";
             // 
-            // table
+            // editText
             // 
-            table.FlatAppearance.BorderSize = 0;
-            table.FlatStyle = FlatStyle.Flat;
-            table.Font = new Font("Bahnschrift SemiBold Condensed", 24F, FontStyle.Regular, GraphicsUnit.Point);
-            table.ForeColor = Color.White;
-            table.Location = new Point(0, 570);
-            table.Margin = new Padding(0);
-            table.Name = "table";
-            table.Size = new Size(223, 57);
-            table.TabIndex = 10;
-            table.Text = "Upraviť text";
-            table.UseVisualStyleBackColor = true;
-            table.MouseEnter += button1_MouseEnter;
-            table.MouseLeave += button1_MouseLeave;
+            editText.FlatAppearance.BorderSize = 0;
+            editText.FlatStyle = FlatStyle.Flat;
+            editText.Font = new Font("Bahnschrift SemiBold Condensed", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            editText.ForeColor = Color.White;
+            editText.Location = new Point(0, 570);
+            editText.Margin = new Padding(0);
+            editText.Name = "editText";
+            editText.Size = new Size(223, 57);
+            editText.TabIndex = 1;
+            editText.Text = "Upraviť text";
+            editText.UseVisualStyleBackColor = true;
+            editText.Click += editText_Click;
+            editText.MouseEnter += button1_MouseEnter;
+            editText.MouseLeave += button1_MouseLeave;
             // 
-            // button1
+            // changePicture
             // 
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Bahnschrift SemiBold Condensed", 24F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(345, 570);
-            button1.Margin = new Padding(0);
-            button1.Name = "button1";
-            button1.Size = new Size(223, 57);
-            button1.TabIndex = 11;
-            button1.Text = "Zmeniť obrázok";
-            button1.UseVisualStyleBackColor = true;
-            button1.MouseEnter += button1_MouseEnter;
-            button1.MouseLeave += button1_MouseLeave;
+            changePicture.FlatAppearance.BorderSize = 0;
+            changePicture.FlatStyle = FlatStyle.Flat;
+            changePicture.Font = new Font("Bahnschrift SemiBold Condensed", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            changePicture.ForeColor = Color.White;
+            changePicture.Location = new Point(345, 570);
+            changePicture.Margin = new Padding(0);
+            changePicture.Name = "changePicture";
+            changePicture.Size = new Size(223, 57);
+            changePicture.TabIndex = 11;
+            changePicture.Text = "Zmeniť obrázok";
+            changePicture.UseVisualStyleBackColor = true;
+            changePicture.Click += changePicture_Click;
+            changePicture.MouseEnter += button1_MouseEnter;
+            changePicture.MouseLeave += button1_MouseLeave;
             // 
             // infoWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(39, 103, 148);
-            ClientSize = new Size(568, 629);
-            Controls.Add(button1);
-            Controls.Add(table);
+            ClientSize = new Size(568, 627);
+            Controls.Add(changePicture);
+            Controls.Add(editText);
             Controls.Add(richTextBox1);
             Controls.Add(pictureBox1);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "infoWindow";
             StartPosition = FormStartPosition.Manual;
             Text = "Form1";
+            Load += infoWindow_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -195,8 +204,8 @@
         private PictureBox closeIcon;
         private PictureBox pictureBox1;
         private RichTextBox richTextBox1;
-        private Button table;
-        private Button button1;
+        private Button editText;
+        private Button changePicture;
         private Label label1;
     }
 }
