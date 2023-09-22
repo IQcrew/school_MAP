@@ -131,6 +131,28 @@ namespace virtual_MAP_windows
                 loadClassroom(rowData, null);
             }
         }
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                dataGridView1.Rows.Clear();
+                foreach (var key in dataManager.data.Keys)
+                {
+                    dataGridView1.Rows.Add(key, dataManager.data[key]["predmety"], dataManager.data[key]["popis"]);
+                }
+            }
+            else
+            {
+                dataGridView1.Rows.Clear();
+                foreach (var key in dataManager.data.Keys)
+                {
+                    if ((key + dataManager.data[key]["predmety"] + dataManager.data[key]["popis"]).ToLower().Contains(textBox1.Text.ToLower()))
+                    {
+                        dataGridView1.Rows.Add(key, dataManager.data[key]["predmety"], dataManager.data[key]["popis"]);
+                    }
+                }
+            }
+        }
 
         #region design
         private void DraggableWindow_MouseDown(object sender, MouseEventArgs e)
@@ -200,5 +222,10 @@ namespace virtual_MAP_windows
 
         #endregion
 
+        private void clearSearch_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox1_TextChanged(null, null);
+        }
     }
 }

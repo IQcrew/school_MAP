@@ -67,6 +67,10 @@
             tabPage8 = new TabPage();
             label4 = new Label();
             tabPage9 = new TabPage();
+            clearSearch = new Button();
+            textBox1 = new TextBox();
+            pictureBox5 = new PictureBox();
+            label8 = new Label();
             dataGridView1 = new DataGridView();
             Nazov = new DataGridViewTextBoxColumn();
             Predmety = new DataGridViewTextBoxColumn();
@@ -89,6 +93,7 @@
             tabPage7.SuspendLayout();
             tabPage8.SuspendLayout();
             tabPage9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -586,6 +591,10 @@
             // tabPage9
             // 
             tabPage9.BackColor = Color.FromArgb(47, 118, 165);
+            tabPage9.Controls.Add(textBox1);
+            tabPage9.Controls.Add(label8);
+            tabPage9.Controls.Add(clearSearch);
+            tabPage9.Controls.Add(pictureBox5);
             tabPage9.Controls.Add(dataGridView1);
             tabPage9.Location = new Point(4, 5);
             tabPage9.Name = "tabPage9";
@@ -594,21 +603,69 @@
             tabPage9.TabIndex = 8;
             tabPage9.Text = "tabPage9";
             // 
+            // clearSearch
+            // 
+            clearSearch.FlatAppearance.BorderSize = 0;
+            clearSearch.FlatStyle = FlatStyle.Flat;
+            clearSearch.Font = new Font("Bahnschrift SemiBold Condensed", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            clearSearch.ForeColor = Color.White;
+            clearSearch.Location = new Point(936, 3);
+            clearSearch.Margin = new Padding(0);
+            clearSearch.Name = "clearSearch";
+            clearSearch.Size = new Size(287, 53);
+            clearSearch.TabIndex = 6;
+            clearSearch.Text = "Vymazať vyhľadávanie";
+            clearSearch.UseVisualStyleBackColor = true;
+            clearSearch.Click += clearSearch_Click;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.FromArgb(34, 97, 140);
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Font = new Font("Bahnschrift SemiBold Condensed", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.ForeColor = Color.White;
+            textBox1.Location = new Point(217, 11);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(578, 39);
+            textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = Properties.Resources.search;
+            pictureBox5.Location = new Point(7, 6);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(61, 47);
+            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox5.TabIndex = 3;
+            pictureBox5.TabStop = false;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Bahnschrift SemiBold Condensed", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.ForeColor = Color.White;
+            label8.Location = new Point(59, 11);
+            label8.Name = "label8";
+            label8.Size = new Size(162, 39);
+            label8.TabIndex = 2;
+            label8.Text = "Vyhľadávanie:";
+            // 
             // dataGridView1
             // 
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.AllowUserToDeleteRows = false;
-            dataGridView1.BackgroundColor = Color.FromArgb(39, 103, 148);
+            dataGridView1.BackgroundColor = Color.FromArgb(47, 118, 165);
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Nazov, Predmety, Popis });
             dataGridView1.GridColor = Color.FromArgb(39, 103, 148);
-            dataGridView1.Location = new Point(0, 3);
+            dataGridView1.Location = new Point(0, 56);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(1223, 746);
+            dataGridView1.Size = new Size(1223, 693);
             dataGridView1.TabIndex = 0;
-            dataGridView1.CellClick += dataGridView1_CellClick;
+            dataGridView1.CellDoubleClick += dataGridView1_CellClick;
             // 
             // Nazov
             // 
@@ -672,6 +729,8 @@
             tabPage8.ResumeLayout(false);
             tabPage8.PerformLayout();
             tabPage9.ResumeLayout(false);
+            tabPage9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
@@ -719,5 +778,9 @@
         private DataGridViewTextBoxColumn Nazov;
         private DataGridViewTextBoxColumn Predmety;
         private DataGridViewTextBoxColumn Popis;
+        private TextBox textBox1;
+        private Label label8;
+        private PictureBox pictureBox5;
+        private Button clearSearch;
     }
 }
