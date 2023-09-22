@@ -93,6 +93,16 @@ namespace virtual_MAP_windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap vestibul {
+            get {
+                object obj = ResourceManager.GetObject("vestibul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap winfo_icon_minimize_64 {
             get {
                 object obj = ResourceManager.GetObject("winfo-icon-minimize-64", resourceCulture);

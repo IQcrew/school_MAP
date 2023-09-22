@@ -16,8 +16,6 @@ namespace virtual_MAP_windows
         bool editTextMode = false;
         private Point dragStartPoint;
         List<infoWindow> openedWindows;
-        string constantPath = @"src\rooms";
-        string textPath;
         string imagePath;
         Image tempImage;
         public infoWindow(string number, List<infoWindow> opendW)
@@ -27,21 +25,16 @@ namespace virtual_MAP_windows
             Text = number;
             label1.Text = number;
             openedWindows = opendW;
-            textPath = @$"{constantPath}\{this.Text}.txt";
-            imagePath = @$"{constantPath}\{this.Text}.jpg";
+            imagePath = @$"{dataManager.constantPath}\{this.Text}.jpg";
         }
         private void infoWindow_Load(object sender, EventArgs e)
         {
             editText.Focus();
-            if (File.Exists(textPath))
-            { 
-                richTextBox1.Text = File.ReadAllText(textPath);
-            }
-            else
+            if (dataManager.data.ContainsKey(Text))
             {
-                File.Create(textPath).Close();
+                richTextBox1.Text = dataManager.data[Text]["popis"];
+                richTextBox2.Text = dataManager.data[Text]["predmety"];
             }
-
             if (File.Exists(imagePath))
             {
                 tempImage = Image.FromFile(imagePath);
@@ -55,15 +48,21 @@ namespace virtual_MAP_windows
             if (editTextMode)
             {
                 editText.BackColor = Color.Black;
-                richTextBox1.ReadOnly = false;
+                richTextBox1.ReadOnly = false; richTextBox2.ReadOnly = false;
                 richTextBox1.Focus();
             }
             else
             {
                 editText.BackColor = Color.FromArgb(39, 103, 148);
-                richTextBox1.ReadOnly = true;
+                richTextBox1.ReadOnly = true; richTextBox2.ReadOnly = true;
                 editText.Focus();
-                File.WriteAllText(textPath, richTextBox1.Text);
+                if (dataManager.data.ContainsKey(Text)) {
+                    dataManager.data[Text] = new Dictionary<string, string> { { "popis", richTextBox1.Text }, { "predmety", richTextBox2.Text } };
+                }
+                else
+                {
+                    dataManager.data.Add(Text, new Dictionary<string, string> { { "popis", richTextBox1.Text }, { "predmety", richTextBox2.Text } });
+                }
             }
         }
 
@@ -76,9 +75,10 @@ namespace virtual_MAP_windows
 
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    
+
                     pictureBox1.Image = null;
-                    if (File.Exists(imagePath)) {
+                    if (File.Exists(imagePath))
+                    {
                         pictureBox1.Image = null;
                         tempImage.Dispose();
                         File.Delete(imagePath);

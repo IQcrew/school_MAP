@@ -38,6 +38,8 @@
             richTextBox1 = new RichTextBox();
             editText = new Button();
             changePicture = new Button();
+            richTextBox2 = new RichTextBox();
+            label2 = new Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)minimizeIcon).BeginInit();
@@ -116,6 +118,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.FromArgb(34, 97, 140);
             pictureBox1.Location = new Point(12, 42);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(544, 306);
@@ -125,14 +128,14 @@
             // 
             // richTextBox1
             // 
-            richTextBox1.BackColor = Color.FromArgb(39, 103, 148);
+            richTextBox1.BackColor = Color.FromArgb(34, 97, 140);
             richTextBox1.BorderStyle = BorderStyle.None;
             richTextBox1.Font = new Font("Bahnschrift SemiBold SemiConden", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             richTextBox1.ForeColor = Color.White;
-            richTextBox1.Location = new Point(12, 354);
+            richTextBox1.Location = new Point(12, 389);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.ReadOnly = true;
-            richTextBox1.Size = new Size(544, 204);
+            richTextBox1.Size = new Size(544, 223);
             richTextBox1.TabIndex = 5;
             richTextBox1.Text = "";
             // 
@@ -142,7 +145,7 @@
             editText.FlatStyle = FlatStyle.Flat;
             editText.Font = new Font("Bahnschrift SemiBold Condensed", 24F, FontStyle.Regular, GraphicsUnit.Point);
             editText.ForeColor = Color.White;
-            editText.Location = new Point(0, 570);
+            editText.Location = new Point(0, 624);
             editText.Margin = new Padding(0);
             editText.Name = "editText";
             editText.Size = new Size(223, 57);
@@ -159,7 +162,7 @@
             changePicture.FlatStyle = FlatStyle.Flat;
             changePicture.Font = new Font("Bahnschrift SemiBold Condensed", 24F, FontStyle.Regular, GraphicsUnit.Point);
             changePicture.ForeColor = Color.White;
-            changePicture.Location = new Point(345, 570);
+            changePicture.Location = new Point(345, 624);
             changePicture.Margin = new Padding(0);
             changePicture.Name = "changePicture";
             changePicture.Size = new Size(223, 57);
@@ -170,12 +173,38 @@
             changePicture.MouseEnter += button1_MouseEnter;
             changePicture.MouseLeave += button1_MouseLeave;
             // 
+            // richTextBox2
+            // 
+            richTextBox2.BackColor = Color.FromArgb(34, 97, 140);
+            richTextBox2.BorderStyle = BorderStyle.None;
+            richTextBox2.Font = new Font("Bahnschrift SemiBold SemiConden", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            richTextBox2.ForeColor = Color.White;
+            richTextBox2.Location = new Point(121, 354);
+            richTextBox2.Name = "richTextBox2";
+            richTextBox2.ReadOnly = true;
+            richTextBox2.Size = new Size(435, 29);
+            richTextBox2.TabIndex = 12;
+            richTextBox2.Text = "";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Bahnschrift SemiBold SemiConden", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(21, 353);
+            label2.Name = "label2";
+            label2.Size = new Size(94, 25);
+            label2.TabIndex = 13;
+            label2.Text = "Predmety:";
+            // 
             // infoWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(39, 103, 148);
-            ClientSize = new Size(568, 627);
+            ClientSize = new Size(568, 680);
+            Controls.Add(label2);
+            Controls.Add(richTextBox2);
             Controls.Add(changePicture);
             Controls.Add(editText);
             Controls.Add(richTextBox1);
@@ -194,6 +223,7 @@
             ((System.ComponentModel.ISupportInitialize)closeIcon).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -207,5 +237,7 @@
         private Button editText;
         private Button changePicture;
         private Label label1;
+        private RichTextBox richTextBox2;
+        private Label label2;
     }
 }

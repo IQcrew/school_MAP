@@ -1,6 +1,7 @@
 using System.Reflection.PortableExecutable;
 using System.Collections.Generic;
 using System.CodeDom.Compiler;
+using System.Text.Json;
 
 namespace virtual_MAP_windows
 {
@@ -19,14 +20,14 @@ namespace virtual_MAP_windows
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            dataManager.innit();
         }
 
 
 
         private void loadClassroom(object sender, EventArgs e)
         {
-            string selectedLabel = (sender as Label).Text;
+            string selectedLabel = sender is Label ? (sender as Label).Text : sender.ToString();
             infoWindow findExisting = openWindows.Find(win => win.Text == selectedLabel);
             if (findExisting == default)
             {
@@ -38,6 +39,44 @@ namespace virtual_MAP_windows
             {
                 findExisting.BringToFront();
             }
+        }
+        private void zmenaPoschodiaButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                switch ((sender as Label).Text)
+                {
+                    case "VESTIBUL":
+                        tabControl1.SelectedIndex = 0;
+                        break;
+                    case "200":
+                    case "700":
+                        tabControl1.SelectedIndex = 1;
+                        break;
+                    case "300":
+                    case "800":
+                        tabControl1.SelectedIndex = 2;
+                        break;
+                    case "400":
+                    case "900":
+                        tabControl1.SelectedIndex = 3;
+                        break;
+                    case "1000":
+                    case "500":
+                        tabControl1.SelectedIndex = 4;
+                        break;
+                    case "PODKROVIE":
+                        tabControl1.SelectedIndex = 5;
+                        break;
+                    case "TEI":
+                        tabControl1.SelectedIndex = 6;
+                        break;
+                    case "DIELNE":
+                        tabControl1.SelectedIndex = 7;
+                        break;
+                }
+            }
+            catch (Exception ex) { }
         }
 
         private void changeTab(object sender, EventArgs e)
@@ -61,22 +100,37 @@ namespace virtual_MAP_windows
                     case "p5":
                         tabControl1.SelectedIndex = 4;
                         break;
-                    case "p6":
+                    case "podk":
                         tabControl1.SelectedIndex = 5;
                         break;
-                    case "table":
+                    case "tei":
                         tabControl1.SelectedIndex = 6;
+                        break;
+                    case "diel":
+                        tabControl1.SelectedIndex = 7;
+                        break;
+                    case "zoz":
+                        tabControl1.SelectedIndex = 8;
+                        dataGridView1.Rows.Clear();
+                        foreach (var key in dataManager.data.Keys)
+                        {
+                            dataGridView1.Rows.Add(key, dataManager.data[key]["predmety"], dataManager.data[key]["popis"]);
+                        }
                         break;
                 }
             }
             catch (Exception ex) { }
         }
-
-        private void timer1_Tick(object sender, EventArgs e)
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            // Check if a valid row and cell is clicked (not the header or empty row)
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                // Get the data from a specific column (e.g., column with index 1)
+                string rowData = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+                loadClassroom(rowData, null);
+            }
         }
-
 
         #region design
         private void DraggableWindow_MouseDown(object sender, MouseEventArgs e)
@@ -109,6 +163,7 @@ namespace virtual_MAP_windows
 
         private void closeWindow(object sender, EventArgs e)
         {
+            dataManager.writeData();
             this.Close();
         }
 
