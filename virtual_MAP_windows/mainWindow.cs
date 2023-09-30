@@ -149,7 +149,7 @@ namespace virtual_MAP_windows
                     bool temp = true;
                     foreach (string item in textBox1.Text.Split(','))
                     {
-                        if (!(key + dataManager.data[key]["predmety"] + dataManager.data[key]["popis"]).ToLower().Contains(item))
+                        if (!(key + dataManager.data[key]["predmety"] + dataManager.data[key]["popis"]).ToLower().Contains(item.ToLower().Trim()))
                         {
                             temp = false;
                         }
@@ -160,6 +160,11 @@ namespace virtual_MAP_windows
                     }
                 }
             }
+        }
+        private void clearSearch_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox1_TextChanged(null, null);
         }
 
         #region design
@@ -230,10 +235,5 @@ namespace virtual_MAP_windows
 
         #endregion
 
-        private void clearSearch_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = "";
-            textBox1_TextChanged(null, null);
-        }
     }
 }

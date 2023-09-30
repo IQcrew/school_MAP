@@ -1562,10 +1562,10 @@
             // 
             label25.AutoSize = true;
             label25.Cursor = Cursors.PanEast;
-            label25.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label25.Location = new Point(1011, 97);
+            label25.Font = new Font("Arial", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            label25.Location = new Point(977, 79);
             label25.Name = "label25";
-            label25.Size = new Size(90, 19);
+            label25.Size = new Size(172, 37);
             label25.TabIndex = 10;
             label25.Text = "VESTIBUL";
             label25.Click += zmenaPoschodia_Click;
@@ -1803,10 +1803,10 @@
             // 
             label26.AutoSize = true;
             label26.Cursor = Cursors.PanSouth;
-            label26.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label26.Location = new Point(767, 664);
+            label26.Font = new Font("Arial", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            label26.Location = new Point(680, 652);
             label26.Name = "label26";
-            label26.Size = new Size(90, 19);
+            label26.Size = new Size(172, 37);
             label26.TabIndex = 10;
             label26.Text = "VESTIBUL";
             label26.Click += zmenaPoschodia_Click;
