@@ -40,7 +40,7 @@ namespace virtual_MAP_windows
                 findExisting.BringToFront();
             }
         }
-        private void zmenaPoschodiaButton_Click(object sender, EventArgs e)
+        private void zmenaPoschodia_Click(object sender, EventArgs e)
         {
             try
             {
@@ -146,7 +146,15 @@ namespace virtual_MAP_windows
                 dataGridView1.Rows.Clear();
                 foreach (var key in dataManager.data.Keys)
                 {
-                    if ((key + dataManager.data[key]["predmety"] + dataManager.data[key]["popis"]).ToLower().Contains(textBox1.Text.ToLower()))
+                    bool temp = true;
+                    foreach (string item in textBox1.Text.Split(','))
+                    {
+                        if (!(key + dataManager.data[key]["predmety"] + dataManager.data[key]["popis"]).ToLower().Contains(item))
+                        {
+                            temp = false;
+                        }
+                    }
+                    if (temp)
                     {
                         dataGridView1.Rows.Add(key, dataManager.data[key]["predmety"], dataManager.data[key]["popis"]);
                     }

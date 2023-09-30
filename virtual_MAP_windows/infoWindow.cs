@@ -56,13 +56,6 @@ namespace virtual_MAP_windows
                 editText.BackColor = Color.FromArgb(39, 103, 148);
                 richTextBox1.ReadOnly = true; richTextBox2.ReadOnly = true;
                 editText.Focus();
-                if (dataManager.data.ContainsKey(Text)) {
-                    dataManager.data[Text] = new Dictionary<string, string> { { "popis", richTextBox1.Text }, { "predmety", richTextBox2.Text } };
-                }
-                else
-                {
-                    dataManager.data.Add(Text, new Dictionary<string, string> { { "popis", richTextBox1.Text }, { "predmety", richTextBox2.Text } });
-                }
             }
         }
 
@@ -121,9 +114,16 @@ namespace virtual_MAP_windows
                 Location = new Point(newX, newY);
             }
         }
-
         private void closeWindow(object sender, EventArgs e)
         {
+            if (dataManager.data.ContainsKey(Text))
+            {
+                dataManager.data[Text] = new Dictionary<string, string> { { "popis", richTextBox1.Text }, { "predmety", richTextBox2.Text } };
+            }
+            else
+            {
+                dataManager.data.Add(Text, new Dictionary<string, string> { { "popis", richTextBox1.Text }, { "predmety", richTextBox2.Text } });
+            }
             openedWindows.Remove(this);
             this.Close();
         }
