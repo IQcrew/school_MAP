@@ -1,8 +1,0 @@
-C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\teaching1\bin\Debug\teaching1.exe.config
-C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\teaching1\bin\Debug\teaching1.exe
-C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\teaching1\bin\Debug\teaching1.pdb
-C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\teaching1\obj\Debug\teaching1.csproj.AssemblyReference.cache
-C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\teaching1\obj\Debug\teaching1.csproj.SuggestedBindingRedirects.cache
-C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\teaching1\obj\Debug\teaching1.csproj.CoreCompileInputs.cache
-C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\teaching1\obj\Debug\teaching1.exe
-C:\IT\Programovanie_amater\spsit\ulohy\school_MAP\teaching1\obj\Debug\teaching1.pdb
