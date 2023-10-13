@@ -1,278 +1,282 @@
 {
   "204": {
-    "popis": "",
-    "predmety": "ANJ"
+    "popis": "V tejto u\u010Debni sa hlavne vyu\u010Duje anglick\u00FD jazyk. Je vhodn\u00E1 pre skupinov\u00FA alebo triednu v\u00FDu\u010Dbu, \u010Do umo\u017E\u0148uje zdokonalenie jazykov\u00FDch zru\u010Dnost\u00ED.",
+    "predmety": "ANJ, NEJ"
   },
   "709": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa \u0161pecializujete na r\u00F4zne predmety, ako s\u00FA automatiz\u00E1cia, elektrotechnika, elektronika a informatika. Je vhodn\u00E1 pre praktick\u00E9 cvi\u010Denia a aplik\u00E1ciu teoretick\u00FDch znalost\u00ED.",
+    "predmety": "AUT, ELK, ELE, INF, PIT, SXT, OSY, ZCY, SIZ"
   },
   "706": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa zameriavate na r\u00F4zne predmety, vr\u00E1tane po\u010D\u00EDta\u010Dovej architekt\u00FAry, po\u010D\u00EDta\u010Dovej grafiky a programovania. Poskytuje priestor pre praktick\u00E9 cvi\u010Denia a tvorbu po\u010D\u00EDta\u010Dov\u00FDch aplik\u00E1ci\u00ED.",
+    "predmety": "CUA, COW, CIT, PRO, IVI, CPD"
   },
   "704": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni je k dispoz\u00EDcii modern\u00E1 technika, ktor\u00E1 umo\u017E\u0148uje interakt\u00EDvnu v\u00FDu\u010Dbu. \u0160tudenti tu maj\u00FA pr\u00EDstup k potrebn\u00FDm n\u00E1strojom na v\u00FDu\u010Dbu o trojrozmernom modelovan\u00ED, programovan\u00ED, grafickom dizajne a viac.",
+    "predmety": "3DT, PRO, PRX, PI1, IVI, CRG"
   },
   "707": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni je mo\u017En\u00E9 vyu\u010Dova\u0165 r\u00F4zne predmety, vr\u00E1tane pl\u00E1novania a anal\u00FDzy, elektrotechniky, informatiky a viac. Poskytuje priestor pre tvorbu a anal\u00FDzu projektov.",
+    "predmety": "PAY, SXT, ELE, INF, UMI, SIZ, ELK, OSY, ZCY, PIT"
   },
   "705": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa \u0161tudenti u\u010Dia s modern\u00FDmi technick\u00FDmi pom\u00F4ckami a interakt\u00EDvnymi n\u00E1strojmi. T\u00E1to v\u00FDbava umo\u017E\u0148uje \u0161tudentom u\u010Di\u0165 sa modern\u00FDm sp\u00F4sobom a rozv\u00EDja\u0165 svoje zru\u010Dnosti v elektrotechnike \u010Di elektronike.",
+    "predmety": "ELM, CEL, GRS, CEQ, ETS, CEH, CEE"
   },
   "206": {
-    "popis": "",
-    "predmety": "ANJ,MAT,SJL"
+    "popis": "T\u00E1to u\u010Deb\u0148a je vyu\u017E\u00EDvan\u00E1 pre matematiku a in\u00E9 predmety. Poskytuje dostatok priestoru pre \u0161tudentov na v\u00FDu\u010Dbu.",
+    "predmety": "MAT, HOG"
   },
   "208": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je vhodn\u00E1 pre v\u00FDu\u010Dbu slovensk\u00E9ho jazyka a spolo\u010Densk\u00FDch vied. Je ozvl\u00E1\u0161tnen\u00E1 grafitmi na zadnej stene.",
+    "predmety": "SJL, ESI, ANJ"
   },
   "219": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa vyu\u010Duje anglick\u00FD jazyk. Je pomerne mal\u00E1, ale ide\u00E1lna pre skupinu \u0161tudentov.",
+    "predmety": "ANJ"
   },
   "202": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a sa vyu\u017E\u00EDva pre matematiku, slovensk\u00FD jazyk \u010Di nemeck\u00FD jazyk. Poskytuje \u0161tudentom priestor na vzdel\u00E1vanie v t\u00FDchto predmetoch, svoj\u00EDm sp\u00F4sobom je hrav\u00E1.",
+    "predmety": "MAT, SJL, NEJ, CME"
   },
   "306": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa vyu\u010Duj\u00FA r\u00F4zne predmety, vr\u00E1tane slovenk\u00E9ho jazyka, n\u00E1bo\u017Eenstva \u010Di ekonomiky. Je miestom otvorenej diskusie a v\u00FDmeny n\u00E1zorov.",
+    "predmety": "UDP, ANJ, NBV, MNZ, EKO, OBN, SJL, UCT, USP, ZYP"
   },
   "319": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a sl\u00FA\u017Ei preva\u017Ene na v\u00FDu\u010Dbu anglick\u00E9ho jazyka, je mal\u00E1, ale akur\u00E1t.",
+    "predmety": "ANJ, KAJ, OBN"
   },
   "308": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni je d\u00F4le\u017Eit\u00FD otvoren\u00FD dial\u00F3g a diskusia. \u0160tudenti sa tu m\u00F4\u017Eu slobodne vyjadrova\u0165 a diskutova\u0165 o svojich n\u00E1zoroch.",
+    "predmety": "EKO, USP, ZKG, ZAN, PRX, CLG"
   },
   "302": {
-    "popis": "",
-    "predmety": "SJL,ANJ"
+    "popis": "V tejto u\u010Debni prebieha v\u00FDu\u010Dba anglick\u00E9ho jazyka a \u010Fal\u0161\u00EDch predmetov. Je priestrann\u00E1 a dostato\u010Dne ve\u013Ek\u00E1 pre triedu pln\u00FA \u0161tudentov.",
+    "predmety": "ANJ, MDN, CLG"
   },
   "304": {
-    "popis": "",
-    "predmety": "SJL, ANJ, NEJ"
+    "popis": "T\u00E1to u\u010Deb\u0148a sl\u00FA\u017Ei na v\u00FDu\u010Dbu r\u00F4znych predmetov, vr\u00E1tane sloven\u010Diny a ekonomiky. Je zauj\u00EDmavou tabu\u013Eou hne\u010F za hlavami \u0161tudentov.",
+    "predmety": "SJL, UCT, ANJ, LSD, OBN, EKO, USP, KAJ"
   },
   "807": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a umo\u017E\u0148uje \u0161tudentom pracova\u0165 na r\u00F4znych projektoch a experimentoch v oblasti po\u010D\u00EDta\u010Dovej vedy, informatiky a automatiz\u00E1cie.",
+    "predmety": "COW, VYT, CSX, CIT, PI1, IVT, PRO, KBZ, INF, AUT"
   },
   "804": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni je vzdel\u00E1vanie z\u00E1bavn\u00E9 a \u0161tudenti s\u00FA motivovan\u00ED pre nov\u00E9 poznatky. \u0160pecializuje sa na r\u00F4zne predmety, vr\u00E1tane elektroniky, programovania a internetu vec\u00ED.",
+    "predmety": "CEE, PRO, SGX, IVI, CEH, CRG"
   },
   "806": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je ur\u010Den\u00E1 pre v\u00FDu\u010Dbu r\u00F4znych predmetov, vr\u00E1tane informatiky, po\u010D\u00EDta\u010Dovej vedy a programovania. Je vybaven\u00E1 modern\u00FDmi technol\u00F3giami pre efekt\u00EDvnu v\u00FDu\u010Dbu.",
+    "predmety": "ZCY, CIT, CSX, DSY, PRX"
   },
   "805": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni prebieha v\u00FDu\u010Dba r\u00F4znych predmetov, vr\u00E1tane programovania, softv\u00E9rov\u00E9ho in\u017Einierstva a automatiz\u00E1cie. Poskytuje priestor na praktick\u00E9 cvi\u010Denia a kreat\u00EDvne projekty.",
+    "predmety": "RPJ, PCT, CJI, SWE, DDM, CRG, AUT"
   },
   "809": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je miestom, kde sa \u0161tudenti m\u00F4\u017Eu venova\u0165 sie\u0165ov\u00FDm technol\u00F3gi\u00E1m \u010Di u\u017E z teoretick\u00E9ho alebo praktick\u00E9ho h\u013Eadiska.",
+    "predmety": "CIT, CSX, ZCY"
   },
   "815": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa vyu\u010Duj\u00FA elektrotechnick\u00E9 merania a r\u00F4zne in\u00E9 technick\u00E9 predmety. Poskytuje modern\u00E9 technick\u00E9 vybavenie pre vzdel\u00E1vanie.",
+    "predmety": "ELM, GRS, AUT, CEH, IVI, CZP, CMY"
   },
   "908": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je vybaven\u00E1 pre v\u00FDu\u010Dbu r\u00F4znych predmetov, vr\u00E1tane praxe, programovania a elektroniky. Poskytuje priestor pre praktick\u00E9 cvi\u010Denia a experimenty.",
+    "predmety": "DAA, PRX, CRG, IVI, CIT, CEL"
   },
   "907": {
-    "popis": "",
-    "predmety": ""
+    "popis": "U\u010Deb\u0148a je moment\u00E1lne nevyu\u017Eivana.",
+    "predmety": " -"
   },
   "910": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a sl\u00FA\u017Ei pre v\u00FDu\u010Dbu fyziky a cvi\u010Den\u00ED z matematiky. Je zauj\u00EDmav\u00E1 t\u00FDm, \u017Ee lavice s\u00FA poukladan\u00E9 po schode.",
+    "predmety": "FYZ, CME"
   },
   "906": {
-    "popis": "",
-    "predmety": ""
+    "popis": "U\u010Deb\u0148a je moment\u00E1lne nevyu\u017Eivana.",
+    "predmety": " -"
   },
   "915": {
-    "popis": "",
-    "predmety": ""
+    "popis": "U\u010Deb\u0148a je moment\u00E1lne nevyu\u017Eivana.",
+    "predmety": " -"
   },
   "904": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je vybaven\u00E1 modernou technikou pre v\u00FDu\u010Dbu elektrotechniky, informatiky a elektroniky. Je vhodn\u00E1 pre praktick\u00E9 cvi\u010Denia a experimenty.",
+    "predmety": "ELK, ZCY, ETS, PAY, INF, ELE, OSY, ELM, ATE"
   },
   "402": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa vyu\u010Duje slovensk\u00FD jazyk \u010Di ob\u010Dianska n\u00E1uka. Lavice s\u00FA upraven\u00E9 tak aby mali v\u0161etci priamy kontakt s vyu\u010Duj\u00FAcim.",
+    "predmety": "NEJ, OBN, SJL"
   },
   "404": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je ur\u010Den\u00E1 pre matematiku \u010Di cvi\u010Denia z matematiky. Po\u010D\u00EDta sa tu aj na hodin\u00E1ch!",
+    "predmety": "CME, MAT"
   },
   "406": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa vyu\u010Duje anglick\u00FD jazyk, etick\u00E1 v\u00FDchova a r\u00F4zne rozmanit\u00E9 pr\u00EDrodovedn\u00E9 predmety. Vonkaj\u0161ie svetlo tu pekne prenik\u00E1.",
+    "predmety": "ANJ, ETV, SJL, OBN"
   },
   "408": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a sl\u00FA\u017Ei pre v\u00FDu\u010Dbu anglick\u00E9ho jazyka. Je \u010Dist\u00E1 a moderne zariaden\u00E1 pre v\u00FD\u010Dbu triedy.",
+    "predmety": "ANJ"
   },
   "419": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa vyu\u010Duje nemeck\u00FD a anglick\u00FD jazyk. Je ide\u00E1lna len pre men\u0161\u00ED po\u010Det \u0161tudentov.",
+    "predmety": "NEJ, ANJ"
   },
   "1007": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je ur\u010Den\u00E1 pre v\u00FDu\u010Dbu r\u00F4znych predmetov vr\u00E1tane slovensk\u00E9ho jazyka, n\u00E1bo\u017Eenstva a elektrick\u00FDch predmetov. Poskytuje rozmanit\u00E9 vzdel\u00E1vacie mo\u017Enosti.",
+    "predmety": "SJL, NEJ, ELE, ESI"
   },
   "1008": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa vyu\u010Duj\u00FA r\u00F4zne predmety, vr\u00E1tane praxe a informatiky. Je dobre vybaven\u00E1 pre modern\u00FA technick\u00FA v\u00FDu\u010Dbu.",
+    "predmety": "KOC, ZVD, CSN, AIP, IVT, TGC, ODK, CMY, PCM, PRX"
   },
   "1015": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a podporuje v\u00FDu\u010Dbu predmetov z oblasti pr\u00EDrodn\u00FDch vied a techniky, ako s\u00FA fyzika alebo odborn\u00E9 kreslenie. Je vybaven\u00FDmi po\u010D\u00EDta\u010Dmi na kvalitnej\u0161iu v\u00FDu\u010Dbu.",
+    "predmety": "PNC, ZVD, KOC, TEG, GRS, XTG, AIP, IVT, ODK"
   },
   "1004": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je hlavne vyu\u017E\u00EDvan\u00E1 pre stroj\u00E1rske predmety, ako napr\u00EDklad zaklady v\u00FDroby alebo strojn\u00EDctvo. Poskytuje \u0161tudentom vhodn\u00E9 prostredie na praktick\u00E9 cvi\u010Denia a experimentovanie v t\u00FDchto oblastiach.",
+    "predmety": "MEC, STT, SAU, TGC, STN, MNK, ZVD, CMY"
   },
   "1005": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni prebieha v\u00FDu\u010Dba technick\u00FDch a mechanick\u00FDch predmetov. Je vybaven\u00E1 modern\u00FDmi technol\u00F3giami, ktor\u00E9 podporuj\u00FA interakt\u00EDvnu v\u00FDu\u010Dbu a experimentovanie.",
+    "predmety": "TCK, AME, TGC, STT, CSN, MEC, TEG"
   },
   "504": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa vyu\u010Duje slovensk\u00FD jazyk, dejepis a ob\u010Dianska n\u00E1uka.",
+    "predmety": "SJL, DEJ, OBN"
   },
   "506": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je vhodn\u00E1 pre v\u00FDu\u010Dbu sloven\u010Diny a spolo\u010Densk\u00FDch vied. Je najm\u00E4 vyu\u017E\u00EDvan\u00E1 na v\u00FDu\u010Dbu n\u00E1\u0161ho materinsk\u00E9ho jazyka.",
+    "predmety": "OBN, SJL, ESI"
   },
   "508": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je dobre osvetlen\u00E1 a poskytuje pr\u00EDjemn\u00E9 miesto na v\u00FDu\u010Dbu matematiky, fyziky a in\u00FDch pr\u00EDrodn\u00FDch vied.",
+    "predmety": "FYZ, MAT, CME, APM"
   },
   "502": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je vhodn\u00E1 pre v\u00FDu\u010Dbu sloven\u010Diny \u010Di nemeck\u00E9ho jazyka. M\u00E1 v sebe zauj\u00EDmav\u00FA atmosf\u00E9ru, ktorou nadchne nie jedn\u00E9ho \u0161tudenta k v\u00FDu\u010Dbe.",
+    "predmety": "SJL, ESI, NEJ"
   },
   "519": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a sl\u00FA\u017Ei pre v\u00FDu\u010Dbu anglick\u00E9ho jazyka. Je moderne zariaden\u00E1 a je v nej pr\u00EDjemn\u00E1 atmosf\u00E9ra.",
+    "predmety": "ANJ"
   },
   "P1": {
-    "popis": "",
-    "predmety": ""
+    "popis": "U\u010Deb\u0148a je prim\u00E1rne ur\u010Den\u00E1 na vyu\u010Dovanie programovania na modern\u00FDch po\u010D\u00EDta\u010Doch. Je dostato\u010Dne ve\u013Ek\u00E1 na vzdel\u00E1vanie v\u00E4\u010D\u0161ej skupiny \u0161tudentov a poskytuje vhodn\u00E9 technick\u00E9 vybavenie pre t\u00FAto oblas\u0165.",
+    "predmety": "INF, DAA, CRG, DSY, PRO, PRX"
   },
   "P2": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je modern\u00E9 vybaven\u00E1 a sl\u00FA\u017Ei na vyu\u010Dovanie tvorby webov\u00FDch str\u00E1nok, programovania a pr\u00E1ce s datab\u00E1zami. Je ide\u00E1lna pre \u0161tudentov, ktor\u00ED sa chc\u00FA nau\u010Di\u0165 tieto zru\u010Dnosti.",
+    "predmety": "PRO, PRX, CRG, IVI, DSY, CUA"
   },
   "P3": {
-    "popis": "",
-    "predmety": ""
+    "popis": "Je to priestrann\u00E1 a modern\u00E1 u\u010Deb\u0148a, ktor\u00E1 je vyu\u017E\u00EDvan\u00E1 na v\u00FDu\u010Dbu programovania a grafick\u00E9ho dizajnu.",
+    "predmety": "PRO, SWE, VYT, DDM, 3DT, API"
   },
   "TEI0": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Debna je vyu\u017E\u00EDvan\u00E1 projektom GamesLab.",
+    "predmety": "DSY, PRX, INF"
   },
   "TEI1": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa \u0161tudenti vyu\u010Duj\u00FA komunik\u00E1ci\u00ED v anglickom jazyku, ktor\u00FD je d\u00F4le\u017Eit\u00FDm aspektom v \u017Eivote ka\u017Ed\u00E9ho mlad\u00E9ho \u010Dloveka.",
+    "predmety": "ANJ"
   },
   "TEI2": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je vyu\u017E\u00EDvan\u00E1 \u010Di u\u017E pre v\u00FDu\u010Dbu elektroniky, dejepisu alebo dokonca anglick\u00E9ho jazyka.",
+    "predmety": "ELE, DEJ, ANJ, NBV"
   },
   "TEI3": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni prebieha v\u00FDu\u010Dba sloven\u010Diny a n\u00E1bo\u017Eenstva. Svoj\u00EDm sp\u00F4sobom je mal\u00E1, ale dostato\u010Dn\u00E1 ku kvalitnej v\u00FDu\u010Dbe.",
+    "predmety": "SJL, NBV"
   },
   "TEI4": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je miestom otvorenej diskusie a podpory otvoren\u00E9ho dial\u00F3gu. Sl\u00FA\u017Ei pre r\u00F4zne v\u00FDu\u010Dbov\u00E9 aktivity ak\u00FDmi s\u00FA v\u00FDu\u010Dba financi\u00ED alebo re\u010Dn\u00EDckych schopnost\u00ED.",
+    "predmety": "ADK, KPZ, CVU, RPJ, FIG, XPL, EKC, PRX"
   },
   "TEI5": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je vybaven\u00E1 tak, aby bolo mo\u017En\u00E9 r\u00FDchlo prisp\u00F4sobi\u0165 ju r\u00F4znym typom v\u00FDu\u010Dby, vr\u00E1tane predn\u00E1\u0161ok alebo skupinov\u00FDch \u010Di pr\u00E1c jednotlivcov. ",
+    "predmety": "KPZ, FIG, ADK, CVU, RPJ, XPL, EKC, API"
   },
   "TEI6": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa vyu\u010Duj\u00FA r\u00F4zne predmety, ako s\u00FA programovanie, softv\u00E9rov\u00E9 aplik\u00E1cie a \u010Fal\u0161ie. Je taktie\u017E miestom, kde \u0161tudenti m\u00F4\u017Eu uk\u00E1za\u0165 svoje re\u010Dn\u00EDcke schopnosti.",
+    "predmety": "RPJ, SWE, PRX, CJI, INF, PRO"
   },
   "TEI": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto miestnosti sa uskuto\u010D\u0148uj\u00FA \u0161kolsk\u00E9 udalosti a podujatia. Je to miesto, kde sa prv\u00E1ci stret\u00E1vaj\u00FA v prv\u00FD de\u0148 \u0161kolsk\u00E9ho roka a sl\u00FA\u017Ei na r\u00F4zne spolo\u010Densk\u00E9 aktivity.",
+    "predmety": " -"
   },
   "D19": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je vyu\u017E\u00EDvan\u00E1 pre v\u00FDu\u010Dbu manu\u00E1lnej praxe, aby \u0161tudenti mali mo\u017Enos\u0165 si vysk\u00FA\u0161a\u0165 aj in\u00FA sf\u00E9ru ne\u017E len IT.",
+    "predmety": "PRX"
   },
   "D13": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa vyu\u010Duj\u00FA predmety t\u00FDkaj\u00FAce sa technick\u00FDch oblast\u00ED ako programovania, praxe alebo pr\u00E1ce s datab\u00E1zami.",
+    "predmety": "PRX, CRS, CRG, DAA"
   },
   "D12": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V\u00FDbava tejto u\u010Debne je pravdepodobne prisp\u00F4soben\u00FDm modern\u00FDm potreb\u00E1m a umo\u017E\u0148uje r\u00F4zne v\u00FDu\u010Dbov\u00E9 pr\u00EDstupy z praktick\u00E9ho h\u013Eadiska.",
+    "predmety": "PRX, DAA"
   },
   "D11": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni prebieha v\u00FDu\u010Dba predmetov t\u00FDkaj\u00FAcich sa praxe \u010Di elektriky. Nau\u010Dia sa tu po\u010Das praxe, ako sp\u00E1jkova\u0165 a pod.",
+    "predmety": "PRX, SGX, CEQ"
   },
   "D22": {
-    "popis": "",
-    "predmety": ""
+    "popis": "U\u010Deb\u0148a je moment\u00E1lne nevyu\u017Eivana.",
+    "predmety": " -"
   },
   "D9": {
-    "popis": "",
-    "predmety": ""
+    "popis": "U\u010Deb\u0148a je vyu\u017E\u00EDvan\u00E1 k v\u00FDu\u010Dbe praxe, ktor\u00FA \u0161tudenti potom doka\u017E\u00FA uplatni\u0165 v \u017Eivote po \u0161kole. ",
+    "predmety": "PRX"
   },
   "D08": {
-    "popis": "",
-    "predmety": ""
+    "popis": "U\u010Deb\u0148a je moment\u00E1lne nevyu\u017Eivana.",
+    "predmety": " -"
   },
   "D07": {
-    "popis": "",
-    "predmety": ""
+    "popis": "U\u010Deb\u0148a je vyu\u017E\u00EDvan\u00E1 pre predmety t\u00FDkaj\u00FAce sa robotiky, automatiz\u00E1cie a \u010Fal\u0161\u00EDch technick\u00FDch oblast\u00ED. Je zaujimav\u00E1 svojim tvarom.",
+    "predmety": "CPI, AUT, CMY, ROB, QLC, CEH, CZP"
   },
   "D24": {
-    "popis": "",
-    "predmety": ""
+    "popis": "U\u010Deb\u0148a je moment\u00E1lne nevyu\u017Eivana.",
+    "predmety": " -"
   },
   "D06": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni vyu\u010Duj\u00FA predmety t\u00FDkaj\u00FAce sa programovania, po\u010D\u00EDta\u010Dov\u00FDch siet\u00ED a informa\u010Dn\u00FDch technol\u00F3gi\u00ED. Jej modern\u00E9 vybavenie umo\u017E\u0148uje \u0161tudentom pr\u00EDjemn\u00FA v\u00FDu\u010Dbu.",
+    "predmety": "CPD, CSX, CIT, PI1, KBZ"
   },
   "D05": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a je vybaven\u00E1 pre v\u00FDu\u010Dbu r\u00F4znych technick\u00FDch predmetov vr\u00E1tane elektroniky, programovania alebo dokonca 3D dizajnu.",
+    "predmety": "PRX, PI1, CRG, 3DT, ZIG, DSY"
   },
   "D03": {
-    "popis": "",
-    "predmety": ""
+    "popis": "U\u010Deb\u0148a je moment\u00E1lne nevyu\u017Eivana.",
+    "predmety": " -"
   },
   "D02": {
-    "popis": "",
-    "predmety": ""
+    "popis": "V tejto u\u010Debni sa vyu\u010Duj\u00FA predmety t\u00FDkaj\u00FAce sa informatiky, programovania a automatiz\u00E1cie. Je men\u0161ia, ale \u00FAtuln\u00E1.",
+    "predmety": "CPI, PRO, ROB, AUT, QLC, CMY"
   },
   "D26": {
-    "popis": "",
-    "predmety": ""
+    "popis": "U\u010Deb\u0148a, ktor\u00E1 sa vyu\u017E\u00EDva pre r\u00F4zne predmety z oblasti techniky, ako napr\u00EDklad prax \u010Di odborn\u00E9 kreslenie.",
+    "predmety": "PNC, PRX, TEG, CCS, ODK, APW, KOC"
   },
   "D01": {
-    "popis": "",
-    "predmety": ""
+    "popis": "T\u00E1to u\u010Deb\u0148a obsahuje modern\u00E9 technick\u00E9 vybavenie, ktor\u00E9 rob\u00ED v\u00FDu\u010Dbu zauj\u00EDmavou. Je vyu\u017E\u00EDvan\u00E1 pre r\u00F4zne technick\u00E9 predmety.",
+    "predmety": "CEE, CEL, CMY, CEH, AUT, CRG, PRO"
   },
   "D29": {
-    "popis": "",
-    "predmety": ""
+    "popis": "U\u010Deb\u0148a je moment\u00E1lne nevyu\u017Eivana.",
+    "predmety": " -"
+  },
+  "808": {
+    "popis": "T\u00E1to u\u010Deb\u0148a je miestom, kde sa \u0161tudenti m\u00F4\u017Eu venova\u0165 praktick\u00FDm cvi\u010Deniam a aplikova\u0165 teoretick\u00E9 znalosti v praxi. Je vhodn\u00E1 pre skupiny \u0161tudentov vzh\u013Eadom na jej ve\u013Ekos\u0165.",
+    "predmety": "CPD, PCT, CIT, VYT, CRG, ZIG, PRO"
   }
 }
