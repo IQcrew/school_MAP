@@ -47,6 +47,7 @@
             closeIcon = new PictureBox();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
+            label4 = new Label();
             button200 = new Label();
             button700 = new Label();
             dielneButton = new Label();
@@ -237,6 +238,8 @@
             diel.Text = "Dielne";
             diel.UseVisualStyleBackColor = true;
             diel.Click += changeTab;
+            diel.MouseEnter += button1_MouseEnter;
+            diel.MouseLeave += button1_MouseLeave;
             // 
             // tei
             // 
@@ -252,6 +255,8 @@
             tei.Text = "TEI";
             tei.UseVisualStyleBackColor = true;
             tei.Click += changeTab;
+            tei.MouseEnter += button1_MouseEnter;
+            tei.MouseLeave += button1_MouseLeave;
             // 
             // zoz
             // 
@@ -282,6 +287,8 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox2.TabIndex = 11;
             pictureBox2.TabStop = false;
+            pictureBox2.MouseDown += DraggableWindow_MouseDown;
+            pictureBox2.MouseMove += DraggableWindow_MouseMove;
             // 
             // podk
             // 
@@ -466,6 +473,7 @@
             // tabPage1
             // 
             tabPage1.BackColor = Color.FromArgb(47, 118, 165);
+            tabPage1.Controls.Add(label4);
             tabPage1.Controls.Add(button200);
             tabPage1.Controls.Add(button700);
             tabPage1.Controls.Add(dielneButton);
@@ -477,6 +485,19 @@
             tabPage1.Size = new Size(1223, 749);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "tabPage1";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Cursor = Cursors.Hand;
+            label4.Font = new Font("Bauhaus 93", 90F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(444, 613);
+            label4.Name = "label4";
+            label4.Size = new Size(331, 136);
+            label4.TabIndex = 18;
+            label4.Text = "SPSIT";
+            label4.Click += loadClassroom;
             // 
             // button200
             // 
@@ -2109,5 +2130,6 @@
         private Label label77;
         private Label label76;
         private Label label75;
+        private Label label4;
     }
 }
