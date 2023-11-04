@@ -47,6 +47,12 @@
             closeIcon = new PictureBox();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
+            label96 = new Label();
+            label95 = new Label();
+            label94 = new Label();
+            label93 = new Label();
+            label91 = new Label();
+            label88 = new Label();
             label4 = new Label();
             button200 = new Label();
             button700 = new Label();
@@ -318,7 +324,7 @@
             p5.Name = "p5";
             p5.Size = new Size(223, 57);
             p5.TabIndex = 8;
-            p5.Text = "Poschodie 5";
+            p5.Text = "Poschodie 4";
             p5.UseVisualStyleBackColor = true;
             p5.Click += changeTab;
             p5.MouseEnter += button1_MouseEnter;
@@ -335,7 +341,7 @@
             p4.Name = "p4";
             p4.Size = new Size(223, 57);
             p4.TabIndex = 7;
-            p4.Text = "Poschodie 4";
+            p4.Text = "Poschodie 3";
             p4.UseVisualStyleBackColor = true;
             p4.Click += changeTab;
             p4.MouseEnter += button1_MouseEnter;
@@ -352,7 +358,7 @@
             p3.Name = "p3";
             p3.Size = new Size(223, 57);
             p3.TabIndex = 6;
-            p3.Text = "Poschodie 3";
+            p3.Text = "Poschodie 2";
             p3.UseVisualStyleBackColor = true;
             p3.Click += changeTab;
             p3.MouseEnter += button1_MouseEnter;
@@ -369,7 +375,7 @@
             p2.Name = "p2";
             p2.Size = new Size(223, 57);
             p2.TabIndex = 5;
-            p2.Text = "Poschodie 2";
+            p2.Text = "Poschodie 1";
             p2.UseVisualStyleBackColor = true;
             p2.Click += changeTab;
             p2.MouseEnter += button1_MouseEnter;
@@ -473,6 +479,12 @@
             // tabPage1
             // 
             tabPage1.BackColor = Color.FromArgb(47, 118, 165);
+            tabPage1.Controls.Add(label96);
+            tabPage1.Controls.Add(label95);
+            tabPage1.Controls.Add(label94);
+            tabPage1.Controls.Add(label93);
+            tabPage1.Controls.Add(label91);
+            tabPage1.Controls.Add(label88);
             tabPage1.Controls.Add(label4);
             tabPage1.Controls.Add(button200);
             tabPage1.Controls.Add(button700);
@@ -486,17 +498,88 @@
             tabPage1.TabIndex = 0;
             tabPage1.Text = "tabPage1";
             // 
+            // label96
+            // 
+            label96.AutoSize = true;
+            label96.Cursor = Cursors.Hand;
+            label96.Font = new Font("Arial", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label96.Location = new Point(99, 392);
+            label96.Name = "label96";
+            label96.Size = new Size(130, 41);
+            label96.TabIndex = 15;
+            label96.Text = "ŠATŇA";
+            label96.Click += loadClassroom;
+            // 
+            // label95
+            // 
+            label95.AutoSize = true;
+            label95.Cursor = Cursors.Hand;
+            label95.Font = new Font("Arial", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label95.Location = new Point(744, 392);
+            label95.Name = "label95";
+            label95.Size = new Size(130, 41);
+            label95.TabIndex = 14;
+            label95.Text = "ŠATŇA";
+            label95.Click += loadClassroom;
+            // 
+            // label94
+            // 
+            label94.AutoSize = true;
+            label94.Cursor = Cursors.Hand;
+            label94.Font = new Font("Arial", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label94.Location = new Point(1010, 126);
+            label94.Name = "label94";
+            label94.Size = new Size(192, 41);
+            label94.TabIndex = 13;
+            label94.Text = "INTERNÁT";
+            label94.Click += loadClassroom;
+            // 
+            // label93
+            // 
+            label93.AutoSize = true;
+            label93.Cursor = Cursors.Hand;
+            label93.Font = new Font("Arial", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label93.Location = new Point(963, 183);
+            label93.Name = "label93";
+            label93.Size = new Size(239, 41);
+            label93.TabIndex = 12;
+            label93.Text = "TELOCVIČNE";
+            label93.Click += loadClassroom;
+            // 
+            // label91
+            // 
+            label91.AutoSize = true;
+            label91.Cursor = Cursors.Hand;
+            label91.Font = new Font("Arial", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label91.Location = new Point(1025, 240);
+            label91.Name = "label91";
+            label91.Size = new Size(179, 41);
+            label91.TabIndex = 11;
+            label91.Text = "JEDÁLEŇ";
+            label91.Click += loadClassroom;
+            // 
+            // label88
+            // 
+            label88.AutoSize = true;
+            label88.Cursor = Cursors.Hand;
+            label88.Font = new Font("Arial", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label88.Location = new Point(678, 49);
+            label88.Name = "label88";
+            label88.Size = new Size(222, 41);
+            label88.TabIndex = 10;
+            label88.Text = "RIADITEĽŇA";
+            label88.Click += loadClassroom;
+            // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Cursor = Cursors.Hand;
-            label4.Font = new Font("Bauhaus 93", 90F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(444, 613);
+            label4.Font = new Font("Arial", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(341, 532);
             label4.Name = "label4";
-            label4.Size = new Size(331, 136);
-            label4.TabIndex = 18;
-            label4.Text = "SPSIT";
+            label4.Size = new Size(142, 41);
+            label4.TabIndex = 9;
+            label4.Text = "VCHOD";
             label4.Click += loadClassroom;
             // 
             // button200
@@ -585,10 +668,10 @@
             // 
             label31.AutoSize = true;
             label31.Cursor = Cursors.Hand;
-            label31.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label31.Location = new Point(383, 200);
+            label31.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label31.Location = new Point(369, 195);
             label31.Name = "label31";
-            label31.Size = new Size(36, 19);
+            label31.Size = new Size(59, 32);
             label31.TabIndex = 22;
             label31.Text = "705";
             label31.Click += loadClassroom;
@@ -597,10 +680,10 @@
             // 
             label35.AutoSize = true;
             label35.Cursor = Cursors.Hand;
-            label35.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label35.Location = new Point(383, 371);
+            label35.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label35.Location = new Point(369, 366);
             label35.Name = "label35";
-            label35.Size = new Size(36, 19);
+            label35.Size = new Size(59, 32);
             label35.TabIndex = 21;
             label35.Text = "704";
             label35.Click += loadClassroom;
@@ -609,10 +692,10 @@
             // 
             label34.AutoSize = true;
             label34.Cursor = Cursors.Hand;
-            label34.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label34.Location = new Point(383, 74);
+            label34.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label34.Location = new Point(369, 69);
             label34.Name = "label34";
-            label34.Size = new Size(36, 19);
+            label34.Size = new Size(59, 32);
             label34.TabIndex = 20;
             label34.Text = "706";
             label34.Click += loadClassroom;
@@ -621,10 +704,10 @@
             // 
             label33.AutoSize = true;
             label33.Cursor = Cursors.Hand;
-            label33.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label33.Location = new Point(168, 99);
+            label33.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label33.Location = new Point(154, 94);
             label33.Name = "label33";
-            label33.Size = new Size(36, 19);
+            label33.Size = new Size(59, 32);
             label33.TabIndex = 19;
             label33.Text = "707";
             label33.Click += loadClassroom;
@@ -633,10 +716,10 @@
             // 
             label32.AutoSize = true;
             label32.Cursor = Cursors.Hand;
-            label32.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label32.Location = new Point(168, 336);
+            label32.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label32.Location = new Point(154, 331);
             label32.Name = "label32";
-            label32.Size = new Size(36, 19);
+            label32.Size = new Size(59, 32);
             label32.TabIndex = 18;
             label32.Text = "709";
             label32.Click += loadClassroom;
@@ -645,10 +728,10 @@
             // 
             label30.AutoSize = true;
             label30.Cursor = Cursors.Hand;
-            label30.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label30.Location = new Point(1038, 655);
+            label30.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label30.Location = new Point(1024, 650);
             label30.Name = "label30";
-            label30.Size = new Size(36, 19);
+            label30.Size = new Size(59, 32);
             label30.TabIndex = 16;
             label30.Text = "219";
             label30.Click += loadClassroom;
@@ -657,10 +740,10 @@
             // 
             label29.AutoSize = true;
             label29.Cursor = Cursors.Hand;
-            label29.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label29.Location = new Point(1038, 99);
+            label29.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label29.Location = new Point(1024, 94);
             label29.Name = "label29";
-            label29.Size = new Size(36, 19);
+            label29.Size = new Size(59, 32);
             label29.TabIndex = 15;
             label29.Text = "206";
             label29.Click += loadClassroom;
@@ -669,10 +752,10 @@
             // 
             label28.AutoSize = true;
             label28.Cursor = Cursors.Hand;
-            label28.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label28.Location = new Point(1038, 336);
+            label28.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label28.Location = new Point(1024, 331);
             label28.Name = "label28";
-            label28.Size = new Size(36, 19);
+            label28.Size = new Size(59, 32);
             label28.TabIndex = 14;
             label28.Text = "208";
             label28.Click += loadClassroom;
@@ -681,10 +764,10 @@
             // 
             label27.AutoSize = true;
             label27.Cursor = Cursors.Hand;
-            label27.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label27.Location = new Point(833, 155);
+            label27.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label27.Location = new Point(819, 150);
             label27.Name = "label27";
-            label27.Size = new Size(36, 19);
+            label27.Size = new Size(59, 32);
             label27.TabIndex = 13;
             label27.Text = "204";
             label27.Click += loadClassroom;
@@ -741,10 +824,10 @@
             // 
             label3.AutoSize = true;
             label3.Cursor = Cursors.Hand;
-            label3.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(833, 393);
+            label3.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(819, 388);
             label3.Name = "label3";
-            label3.Size = new Size(36, 19);
+            label3.Size = new Size(59, 32);
             label3.TabIndex = 0;
             label3.Text = "202";
             label3.Click += loadClassroom;
@@ -789,10 +872,10 @@
             // 
             label54.AutoSize = true;
             label54.Cursor = Cursors.Hand;
-            label54.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label54.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             label54.Location = new Point(170, 654);
             label54.Name = "label54";
-            label54.Size = new Size(36, 19);
+            label54.Size = new Size(59, 32);
             label54.TabIndex = 28;
             label54.Text = "815";
             label54.Click += loadClassroom;
@@ -801,10 +884,10 @@
             // 
             label53.AutoSize = true;
             label53.Cursor = Cursors.Hand;
-            label53.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label53.Location = new Point(170, 326);
+            label53.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label53.Location = new Point(160, 316);
             label53.Name = "label53";
-            label53.Size = new Size(36, 19);
+            label53.Size = new Size(59, 32);
             label53.TabIndex = 27;
             label53.Text = "809";
             label53.Click += loadClassroom;
@@ -813,10 +896,10 @@
             // 
             label52.AutoSize = true;
             label52.Cursor = Cursors.Hand;
-            label52.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label52.Location = new Point(170, 174);
+            label52.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label52.Location = new Point(160, 164);
             label52.Name = "label52";
-            label52.Size = new Size(36, 19);
+            label52.Size = new Size(59, 32);
             label52.TabIndex = 26;
             label52.Text = "808";
             label52.Click += loadClassroom;
@@ -825,10 +908,10 @@
             // 
             label51.AutoSize = true;
             label51.Cursor = Cursors.Hand;
-            label51.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label51.Location = new Point(170, 66);
+            label51.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label51.Location = new Point(160, 56);
             label51.Name = "label51";
-            label51.Size = new Size(36, 19);
+            label51.Size = new Size(59, 32);
             label51.TabIndex = 25;
             label51.Text = "807";
             label51.Click += loadClassroom;
@@ -837,10 +920,10 @@
             // 
             label7.AutoSize = true;
             label7.Cursor = Cursors.Hand;
-            label7.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(379, 76);
+            label7.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.Location = new Point(369, 66);
             label7.Name = "label7";
-            label7.Size = new Size(36, 19);
+            label7.Size = new Size(59, 32);
             label7.TabIndex = 24;
             label7.Text = "806";
             label7.Click += loadClassroom;
@@ -849,10 +932,10 @@
             // 
             label6.AutoSize = true;
             label6.Cursor = Cursors.Hand;
-            label6.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(379, 200);
+            label6.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(369, 190);
             label6.Name = "label6";
-            label6.Size = new Size(36, 19);
+            label6.Size = new Size(59, 32);
             label6.TabIndex = 23;
             label6.Text = "805";
             label6.Click += loadClassroom;
@@ -861,10 +944,10 @@
             // 
             label1.AutoSize = true;
             label1.Cursor = Cursors.Hand;
-            label1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(379, 371);
+            label1.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(369, 361);
             label1.Name = "label1";
-            label1.Size = new Size(36, 19);
+            label1.Size = new Size(59, 32);
             label1.TabIndex = 22;
             label1.Text = "804";
             label1.Click += loadClassroom;
@@ -873,10 +956,10 @@
             // 
             label36.AutoSize = true;
             label36.Cursor = Cursors.Hand;
-            label36.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label36.Location = new Point(1037, 654);
+            label36.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label36.Location = new Point(1027, 644);
             label36.Name = "label36";
-            label36.Size = new Size(36, 19);
+            label36.Size = new Size(59, 32);
             label36.TabIndex = 21;
             label36.Text = "319";
             label36.Click += loadClassroom;
@@ -885,10 +968,10 @@
             // 
             label37.AutoSize = true;
             label37.Cursor = Cursors.Hand;
-            label37.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label37.Location = new Point(1037, 98);
+            label37.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label37.Location = new Point(1027, 88);
             label37.Name = "label37";
-            label37.Size = new Size(36, 19);
+            label37.Size = new Size(59, 32);
             label37.TabIndex = 20;
             label37.Text = "306";
             label37.Click += loadClassroom;
@@ -897,10 +980,10 @@
             // 
             label38.AutoSize = true;
             label38.Cursor = Cursors.Hand;
-            label38.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label38.Location = new Point(1037, 335);
+            label38.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label38.Location = new Point(1027, 325);
             label38.Name = "label38";
-            label38.Size = new Size(36, 19);
+            label38.Size = new Size(59, 32);
             label38.TabIndex = 19;
             label38.Text = "308";
             label38.Click += loadClassroom;
@@ -909,10 +992,10 @@
             // 
             label39.AutoSize = true;
             label39.Cursor = Cursors.Hand;
-            label39.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label39.Location = new Point(832, 154);
+            label39.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label39.Location = new Point(822, 144);
             label39.Name = "label39";
-            label39.Size = new Size(36, 19);
+            label39.Size = new Size(59, 32);
             label39.TabIndex = 18;
             label39.Text = "304";
             label39.Click += loadClassroom;
@@ -921,10 +1004,10 @@
             // 
             label40.AutoSize = true;
             label40.Cursor = Cursors.Hand;
-            label40.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label40.Location = new Point(832, 392);
+            label40.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label40.Location = new Point(822, 382);
             label40.Name = "label40";
-            label40.Size = new Size(36, 19);
+            label40.Size = new Size(59, 32);
             label40.TabIndex = 17;
             label40.Text = "302";
             label40.Click += loadClassroom;
@@ -1016,10 +1099,10 @@
             // 
             label60.AutoSize = true;
             label60.Cursor = Cursors.Hand;
-            label60.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label60.Location = new Point(169, 326);
+            label60.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label60.Location = new Point(160, 321);
             label60.Name = "label60";
-            label60.Size = new Size(36, 19);
+            label60.Size = new Size(59, 32);
             label60.TabIndex = 27;
             label60.Text = "910";
             label60.Click += loadClassroom;
@@ -1028,10 +1111,10 @@
             // 
             label59.AutoSize = true;
             label59.Cursor = Cursors.Hand;
-            label59.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label59.Location = new Point(169, 655);
+            label59.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label59.Location = new Point(160, 650);
             label59.Name = "label59";
-            label59.Size = new Size(36, 19);
+            label59.Size = new Size(59, 32);
             label59.TabIndex = 26;
             label59.Text = "915";
             label59.Click += loadClassroom;
@@ -1040,10 +1123,10 @@
             // 
             label58.AutoSize = true;
             label58.Cursor = Cursors.Hand;
-            label58.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label58.Location = new Point(169, 65);
+            label58.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label58.Location = new Point(160, 60);
             label58.Name = "label58";
-            label58.Size = new Size(36, 19);
+            label58.Size = new Size(59, 32);
             label58.TabIndex = 25;
             label58.Text = "908";
             label58.Click += loadClassroom;
@@ -1052,10 +1135,10 @@
             // 
             label57.AutoSize = true;
             label57.Cursor = Cursors.Hand;
-            label57.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label57.Location = new Point(379, 76);
+            label57.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label57.Location = new Point(370, 71);
             label57.Name = "label57";
-            label57.Size = new Size(36, 19);
+            label57.Size = new Size(59, 32);
             label57.TabIndex = 24;
             label57.Text = "907";
             label57.Click += loadClassroom;
@@ -1064,10 +1147,10 @@
             // 
             label56.AutoSize = true;
             label56.Cursor = Cursors.Hand;
-            label56.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label56.Location = new Point(379, 200);
+            label56.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label56.Location = new Point(370, 195);
             label56.Name = "label56";
-            label56.Size = new Size(36, 19);
+            label56.Size = new Size(59, 32);
             label56.TabIndex = 23;
             label56.Text = "906";
             label56.Click += loadClassroom;
@@ -1076,10 +1159,10 @@
             // 
             label55.AutoSize = true;
             label55.Cursor = Cursors.Hand;
-            label55.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label55.Location = new Point(379, 393);
+            label55.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label55.Location = new Point(370, 388);
             label55.Name = "label55";
-            label55.Size = new Size(36, 19);
+            label55.Size = new Size(59, 32);
             label55.TabIndex = 22;
             label55.Text = "904";
             label55.Click += loadClassroom;
@@ -1088,10 +1171,10 @@
             // 
             label41.AutoSize = true;
             label41.Cursor = Cursors.Hand;
-            label41.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label41.Location = new Point(1038, 655);
+            label41.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label41.Location = new Point(1029, 650);
             label41.Name = "label41";
-            label41.Size = new Size(36, 19);
+            label41.Size = new Size(59, 32);
             label41.TabIndex = 21;
             label41.Text = "419";
             label41.Click += loadClassroom;
@@ -1100,10 +1183,10 @@
             // 
             label42.AutoSize = true;
             label42.Cursor = Cursors.Hand;
-            label42.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label42.Location = new Point(1038, 99);
+            label42.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label42.Location = new Point(1029, 94);
             label42.Name = "label42";
-            label42.Size = new Size(36, 19);
+            label42.Size = new Size(59, 32);
             label42.TabIndex = 20;
             label42.Text = "406";
             label42.Click += loadClassroom;
@@ -1112,10 +1195,10 @@
             // 
             label43.AutoSize = true;
             label43.Cursor = Cursors.Hand;
-            label43.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label43.Location = new Point(1038, 336);
+            label43.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label43.Location = new Point(1029, 331);
             label43.Name = "label43";
-            label43.Size = new Size(36, 19);
+            label43.Size = new Size(59, 32);
             label43.TabIndex = 19;
             label43.Text = "408";
             label43.Click += loadClassroom;
@@ -1124,10 +1207,10 @@
             // 
             label44.AutoSize = true;
             label44.Cursor = Cursors.Hand;
-            label44.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label44.Location = new Point(833, 155);
+            label44.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label44.Location = new Point(824, 150);
             label44.Name = "label44";
-            label44.Size = new Size(36, 19);
+            label44.Size = new Size(59, 32);
             label44.TabIndex = 18;
             label44.Text = "404";
             label44.Click += loadClassroom;
@@ -1136,10 +1219,10 @@
             // 
             label45.AutoSize = true;
             label45.Cursor = Cursors.Hand;
-            label45.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label45.Location = new Point(833, 393);
+            label45.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label45.Location = new Point(824, 388);
             label45.Name = "label45";
-            label45.Size = new Size(36, 19);
+            label45.Size = new Size(59, 32);
             label45.TabIndex = 17;
             label45.Text = "402";
             label45.Click += loadClassroom;
@@ -1229,10 +1312,10 @@
             // 
             label65.AutoSize = true;
             label65.Cursor = Cursors.Hand;
-            label65.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label65.Location = new Point(169, 655);
+            label65.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label65.Location = new Point(147, 650);
             label65.Name = "label65";
-            label65.Size = new Size(45, 19);
+            label65.Size = new Size(74, 32);
             label65.TabIndex = 26;
             label65.Text = "1015";
             label65.Click += loadClassroom;
@@ -1241,10 +1324,10 @@
             // 
             label64.AutoSize = true;
             label64.Cursor = Cursors.Hand;
-            label64.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label64.Location = new Point(169, 305);
+            label64.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label64.Location = new Point(147, 300);
             label64.Name = "label64";
-            label64.Size = new Size(45, 19);
+            label64.Size = new Size(74, 32);
             label64.TabIndex = 25;
             label64.Text = "1008";
             label64.Click += loadClassroom;
@@ -1253,10 +1336,10 @@
             // 
             label63.AutoSize = true;
             label63.Cursor = Cursors.Hand;
-            label63.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label63.Location = new Point(169, 155);
+            label63.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label63.Location = new Point(147, 150);
             label63.Name = "label63";
-            label63.Size = new Size(45, 19);
+            label63.Size = new Size(74, 32);
             label63.TabIndex = 24;
             label63.Text = "1007";
             label63.Click += loadClassroom;
@@ -1265,10 +1348,10 @@
             // 
             label62.AutoSize = true;
             label62.Cursor = Cursors.Hand;
-            label62.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label62.Location = new Point(382, 356);
+            label62.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label62.Location = new Point(360, 351);
             label62.Name = "label62";
-            label62.Size = new Size(45, 19);
+            label62.Size = new Size(74, 32);
             label62.TabIndex = 23;
             label62.Text = "1004";
             label62.Click += loadClassroom;
@@ -1277,10 +1360,10 @@
             // 
             label61.AutoSize = true;
             label61.Cursor = Cursors.Hand;
-            label61.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label61.Location = new Point(382, 117);
+            label61.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label61.Location = new Point(360, 112);
             label61.Name = "label61";
-            label61.Size = new Size(45, 19);
+            label61.Size = new Size(74, 32);
             label61.TabIndex = 22;
             label61.Text = "1005";
             label61.Click += loadClassroom;
@@ -1289,10 +1372,10 @@
             // 
             label46.AutoSize = true;
             label46.Cursor = Cursors.Hand;
-            label46.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label46.Location = new Point(1039, 655);
+            label46.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label46.Location = new Point(1017, 650);
             label46.Name = "label46";
-            label46.Size = new Size(36, 19);
+            label46.Size = new Size(59, 32);
             label46.TabIndex = 21;
             label46.Text = "519";
             label46.Click += loadClassroom;
@@ -1301,10 +1384,10 @@
             // 
             label47.AutoSize = true;
             label47.Cursor = Cursors.Hand;
-            label47.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label47.Location = new Point(1039, 99);
+            label47.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label47.Location = new Point(1017, 94);
             label47.Name = "label47";
-            label47.Size = new Size(36, 19);
+            label47.Size = new Size(59, 32);
             label47.TabIndex = 20;
             label47.Text = "506";
             label47.Click += loadClassroom;
@@ -1313,10 +1396,10 @@
             // 
             label48.AutoSize = true;
             label48.Cursor = Cursors.Hand;
-            label48.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label48.Location = new Point(1039, 336);
+            label48.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label48.Location = new Point(1017, 331);
             label48.Name = "label48";
-            label48.Size = new Size(36, 19);
+            label48.Size = new Size(59, 32);
             label48.TabIndex = 19;
             label48.Text = "508";
             label48.Click += loadClassroom;
@@ -1325,10 +1408,10 @@
             // 
             label49.AutoSize = true;
             label49.Cursor = Cursors.Hand;
-            label49.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label49.Location = new Point(834, 155);
+            label49.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label49.Location = new Point(812, 150);
             label49.Name = "label49";
-            label49.Size = new Size(36, 19);
+            label49.Size = new Size(59, 32);
             label49.TabIndex = 18;
             label49.Text = "504";
             label49.Click += loadClassroom;
@@ -1337,10 +1420,10 @@
             // 
             label50.AutoSize = true;
             label50.Cursor = Cursors.Hand;
-            label50.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label50.Location = new Point(834, 393);
+            label50.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label50.Location = new Point(812, 388);
             label50.Name = "label50";
-            label50.Size = new Size(36, 19);
+            label50.Size = new Size(59, 32);
             label50.TabIndex = 17;
             label50.Text = "502";
             label50.Click += loadClassroom;
@@ -1409,10 +1492,10 @@
             // 
             label67.AutoSize = true;
             label67.Cursor = Cursors.Hand;
-            label67.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label67.Location = new Point(509, 155);
+            label67.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label67.Location = new Point(500, 153);
             label67.Name = "label67";
-            label67.Size = new Size(29, 19);
+            label67.Size = new Size(47, 32);
             label67.TabIndex = 19;
             label67.Text = "P2";
             label67.Click += loadClassroom;
@@ -1421,10 +1504,10 @@
             // 
             label66.AutoSize = true;
             label66.Cursor = Cursors.Hand;
-            label66.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label66.Location = new Point(700, 105);
+            label66.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label66.Location = new Point(691, 103);
             label66.Name = "label66";
-            label66.Size = new Size(29, 19);
+            label66.Size = new Size(47, 32);
             label66.TabIndex = 18;
             label66.Text = "P3";
             label66.Click += loadClassroom;
@@ -1433,10 +1516,10 @@
             // 
             label5.AutoSize = true;
             label5.Cursor = Cursors.Hand;
-            label5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(546, 371);
+            label5.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(537, 369);
             label5.Name = "label5";
-            label5.Size = new Size(29, 19);
+            label5.Size = new Size(47, 32);
             label5.TabIndex = 17;
             label5.Text = "P1";
             label5.Click += loadClassroom;
@@ -1487,10 +1570,10 @@
             // 
             label74.AutoSize = true;
             label74.Cursor = Cursors.Hand;
-            label74.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label74.Location = new Point(874, 51);
+            label74.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label74.Location = new Point(859, 47);
             label74.Name = "label74";
-            label74.Size = new Size(43, 19);
+            label74.Size = new Size(73, 32);
             label74.TabIndex = 24;
             label74.Text = "TEI6";
             label74.Click += loadClassroom;
@@ -1499,10 +1582,10 @@
             // 
             label73.AutoSize = true;
             label73.Cursor = Cursors.Hand;
-            label73.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label73.Location = new Point(731, 51);
+            label73.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label73.Location = new Point(716, 47);
             label73.Name = "label73";
-            label73.Size = new Size(43, 19);
+            label73.Size = new Size(73, 32);
             label73.TabIndex = 23;
             label73.Text = "TEI5";
             label73.Click += loadClassroom;
@@ -1511,10 +1594,10 @@
             // 
             label72.AutoSize = true;
             label72.Cursor = Cursors.Hand;
-            label72.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label72.Location = new Point(588, 51);
+            label72.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label72.Location = new Point(573, 47);
             label72.Name = "label72";
-            label72.Size = new Size(43, 19);
+            label72.Size = new Size(73, 32);
             label72.TabIndex = 22;
             label72.Text = "TEI4";
             label72.Click += loadClassroom;
@@ -1523,10 +1606,10 @@
             // 
             label71.AutoSize = true;
             label71.Cursor = Cursors.Hand;
-            label71.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label71.Location = new Point(448, 51);
+            label71.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label71.Location = new Point(433, 47);
             label71.Name = "label71";
-            label71.Size = new Size(43, 19);
+            label71.Size = new Size(73, 32);
             label71.TabIndex = 21;
             label71.Text = "TEI3";
             label71.Click += loadClassroom;
@@ -1535,10 +1618,10 @@
             // 
             label70.AutoSize = true;
             label70.Cursor = Cursors.Hand;
-            label70.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label70.Location = new Point(310, 278);
+            label70.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label70.Location = new Point(295, 274);
             label70.Name = "label70";
-            label70.Size = new Size(43, 19);
+            label70.Size = new Size(73, 32);
             label70.TabIndex = 20;
             label70.Text = "TEI2";
             label70.Click += loadClassroom;
@@ -1547,10 +1630,10 @@
             // 
             label69.AutoSize = true;
             label69.Cursor = Cursors.Hand;
-            label69.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label69.Location = new Point(310, 652);
+            label69.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label69.Location = new Point(295, 648);
             label69.Name = "label69";
-            label69.Size = new Size(43, 19);
+            label69.Size = new Size(73, 32);
             label69.TabIndex = 19;
             label69.Text = "TEI0";
             label69.Click += loadClassroom;
@@ -1559,10 +1642,10 @@
             // 
             label68.AutoSize = true;
             label68.Cursor = Cursors.Hand;
-            label68.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label68.Location = new Point(310, 497);
+            label68.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label68.Location = new Point(295, 493);
             label68.Name = "label68";
-            label68.Size = new Size(43, 19);
+            label68.Size = new Size(73, 32);
             label68.TabIndex = 18;
             label68.Text = "TEI1";
             label68.Click += loadClassroom;
@@ -1571,10 +1654,10 @@
             // 
             label2.AutoSize = true;
             label2.Cursor = Cursors.Hand;
-            label2.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(674, 497);
+            label2.Font = new Font("Arial", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(629, 459);
             label2.Name = "label2";
-            label2.Size = new Size(34, 19);
+            label2.Size = new Size(133, 75);
             label2.TabIndex = 17;
             label2.Text = "TEI";
             label2.Click += loadClassroom;
@@ -1632,10 +1715,10 @@
             // 
             label92.AutoSize = true;
             label92.Cursor = Cursors.Hand;
-            label92.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label92.Location = new Point(364, 485);
+            label92.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label92.Location = new Point(346, 484);
             label92.Name = "label92";
-            label92.Size = new Size(39, 19);
+            label92.Size = new Size(64, 32);
             label92.TabIndex = 35;
             label92.Text = "D22";
             label92.Click += loadClassroom;
@@ -1644,10 +1727,10 @@
             // 
             label90.AutoSize = true;
             label90.Cursor = Cursors.Hand;
-            label90.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label90.Location = new Point(566, 485);
+            label90.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label90.Location = new Point(548, 484);
             label90.Name = "label90";
-            label90.Size = new Size(39, 19);
+            label90.Size = new Size(64, 32);
             label90.TabIndex = 33;
             label90.Text = "D24";
             label90.Click += loadClassroom;
@@ -1656,10 +1739,10 @@
             // 
             label89.AutoSize = true;
             label89.Cursor = Cursors.Hand;
-            label89.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label89.Location = new Point(758, 485);
+            label89.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label89.Location = new Point(740, 484);
             label89.Name = "label89";
-            label89.Size = new Size(39, 19);
+            label89.Size = new Size(64, 32);
             label89.TabIndex = 32;
             label89.Text = "D26";
             label89.Click += loadClassroom;
@@ -1668,10 +1751,10 @@
             // 
             label87.AutoSize = true;
             label87.Cursor = Cursors.Hand;
-            label87.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label87.Location = new Point(1063, 485);
+            label87.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label87.Location = new Point(1045, 484);
             label87.Name = "label87";
-            label87.Size = new Size(39, 19);
+            label87.Size = new Size(64, 32);
             label87.TabIndex = 30;
             label87.Text = "D29";
             label87.Click += loadClassroom;
@@ -1680,10 +1763,10 @@
             // 
             label86.AutoSize = true;
             label86.Cursor = Cursors.Hand;
-            label86.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label86.Location = new Point(151, 485);
+            label86.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label86.Location = new Point(133, 484);
             label86.Name = "label86";
-            label86.Size = new Size(39, 19);
+            label86.Size = new Size(64, 32);
             label86.TabIndex = 29;
             label86.Text = "D19";
             label86.Click += loadClassroom;
@@ -1692,10 +1775,10 @@
             // 
             label85.AutoSize = true;
             label85.Cursor = Cursors.Hand;
-            label85.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label85.Location = new Point(160, 240);
+            label85.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label85.Location = new Point(142, 239);
             label85.Name = "label85";
-            label85.Size = new Size(39, 19);
+            label85.Size = new Size(64, 32);
             label85.TabIndex = 28;
             label85.Text = "D13";
             label85.Click += loadClassroom;
@@ -1704,10 +1787,10 @@
             // 
             label84.AutoSize = true;
             label84.Cursor = Cursors.Hand;
-            label84.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label84.Location = new Point(251, 240);
+            label84.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label84.Location = new Point(233, 239);
             label84.Name = "label84";
-            label84.Size = new Size(39, 19);
+            label84.Size = new Size(64, 32);
             label84.TabIndex = 27;
             label84.Text = "D12";
             label84.Click += loadClassroom;
@@ -1716,10 +1799,10 @@
             // 
             label83.AutoSize = true;
             label83.Cursor = Cursors.Hand;
-            label83.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label83.Location = new Point(333, 240);
+            label83.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label83.Location = new Point(315, 239);
             label83.Name = "label83";
-            label83.Size = new Size(38, 19);
+            label83.Size = new Size(63, 32);
             label83.TabIndex = 26;
             label83.Text = "D11";
             label83.Click += loadClassroom;
@@ -1740,10 +1823,10 @@
             // 
             label81.AutoSize = true;
             label81.Cursor = Cursors.Hand;
-            label81.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label81.Location = new Point(594, 240);
+            label81.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label81.Location = new Point(576, 239);
             label81.Name = "label81";
-            label81.Size = new Size(39, 19);
+            label81.Size = new Size(64, 32);
             label81.TabIndex = 24;
             label81.Text = "D07";
             label81.Click += loadClassroom;
@@ -1752,10 +1835,10 @@
             // 
             label80.AutoSize = true;
             label80.Cursor = Cursors.Hand;
-            label80.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label80.Location = new Point(447, 240);
+            label80.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label80.Location = new Point(429, 239);
             label80.Name = "label80";
-            label80.Size = new Size(30, 19);
+            label80.Size = new Size(49, 32);
             label80.TabIndex = 23;
             label80.Text = "D9";
             label80.Click += loadClassroom;
@@ -1764,10 +1847,10 @@
             // 
             label79.AutoSize = true;
             label79.Cursor = Cursors.Hand;
-            label79.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label79.Location = new Point(709, 240);
+            label79.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label79.Location = new Point(691, 239);
             label79.Name = "label79";
-            label79.Size = new Size(39, 19);
+            label79.Size = new Size(64, 32);
             label79.TabIndex = 22;
             label79.Text = "D06";
             label79.Click += loadClassroom;
@@ -1776,10 +1859,10 @@
             // 
             label78.AutoSize = true;
             label78.Cursor = Cursors.Hand;
-            label78.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label78.Location = new Point(827, 240);
+            label78.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label78.Location = new Point(809, 239);
             label78.Name = "label78";
-            label78.Size = new Size(39, 19);
+            label78.Size = new Size(64, 32);
             label78.TabIndex = 21;
             label78.Text = "D05";
             label78.Click += loadClassroom;
@@ -1788,10 +1871,10 @@
             // 
             label77.AutoSize = true;
             label77.Cursor = Cursors.Hand;
-            label77.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label77.Location = new Point(935, 240);
+            label77.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label77.Location = new Point(917, 239);
             label77.Name = "label77";
-            label77.Size = new Size(39, 19);
+            label77.Size = new Size(64, 32);
             label77.TabIndex = 20;
             label77.Text = "D03";
             label77.Click += loadClassroom;
@@ -1800,10 +1883,10 @@
             // 
             label76.AutoSize = true;
             label76.Cursor = Cursors.Hand;
-            label76.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label76.Location = new Point(1040, 240);
+            label76.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label76.Location = new Point(1022, 239);
             label76.Name = "label76";
-            label76.Size = new Size(39, 19);
+            label76.Size = new Size(64, 32);
             label76.TabIndex = 19;
             label76.Text = "D02";
             label76.Click += loadClassroom;
@@ -1812,10 +1895,10 @@
             // 
             label75.AutoSize = true;
             label75.Cursor = Cursors.Hand;
-            label75.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label75.Location = new Point(1131, 240);
+            label75.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label75.Location = new Point(1113, 239);
             label75.Name = "label75";
-            label75.Size = new Size(39, 19);
+            label75.Size = new Size(64, 32);
             label75.TabIndex = 18;
             label75.Text = "D01";
             label75.Click += loadClassroom;
@@ -2131,5 +2214,11 @@
         private Label label76;
         private Label label75;
         private Label label4;
+        private Label label91;
+        private Label label88;
+        private Label label94;
+        private Label label93;
+        private Label label96;
+        private Label label95;
     }
 }
