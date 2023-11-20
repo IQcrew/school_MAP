@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "virtual_MAP_windows/1.0.0": {
+        "runtime": {
+          "virtual_MAP_windows.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "virtual_MAP_windows/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
